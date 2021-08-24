@@ -14,7 +14,7 @@ print "\n[+] Data"
 print data
 
 # cat file.pem | xxd -p | tr -d "\\n"
-pem = "/Users/gdlopez/Documents/public.pem"
+pem = "/Users/Documents/public.pem"
 pem_command = 'cat :file | xxd -p | tr -d "\\\\n"'.replace(":file", pem)
 print "\n[+] PEM command: "
 print pem_command
